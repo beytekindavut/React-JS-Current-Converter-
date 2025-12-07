@@ -1,0 +1,159 @@
+body {
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  font-family: "Inter", sans-serif;
+}
+
+.currency-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(218, 47, 47, 0.4);
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  width: 600px;
+  box-shadow: 0 10px 35px rgba(208, 43, 43, 0.15);
+  transition: 0.3s;
+  height: 200px;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.input {
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+  outline: none;
+}
+
+.select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  transition: 0.2s;
+}
+
+.select:hover {
+  border-color: #4a90e2;
+}
+
+.arrow {
+  font-size: 28px;
+  color: #4a90e2;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #357ab8;
+}
+
+.btn:disabled {
+  background: #9bb9d4;
+}
+
+.error {
+  margin-top: 12px;
+  color: red;
+  text-align: center;
+  font-weight: 600;
+}
+
+.swap-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #ff9800;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.swap-btn:hover {
+  background: #e68900;
+}
+
+.flag-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.flag {
+  font-size: 26px;
+}
+
+.flag-select-box {
+  padding-left: 8px;
+}
+
+/* Önceki tasarım aynen devam ediyor */
+
+
+
+/* Responsive */
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+  }
+
+  .inputs {
+    flex-direction: column;
+  }
+
+  .input,
+  .select {
+    width: 100%;
+  }
+}

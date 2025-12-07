@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "username": "davut10200",
+      "password": "1234",
+      "postId": "10"
+    },
+    {
+      "id": "fa2c",
+      "username": "bilal",
+      "password": "3636"
+    },
+    {
+      "id": "76ab",
+      "username": "bilal",
+      "password": "3636"
+    },
+    {
+      "username": "Dilan",
+      "password": "54321",
+      "id": "25a8"
+    },
+    {
+      "id": "3737"
+    },
+    {
+      "id": "744f",
+      "username": "DAVUT",
+      "password": "6666"
+    },
+    {
+      "id": "8a26",
+      "username": "HIMM",
+      "password": "1111"
+    },
+    {
+      "id": "eafa",
+      "username": "Warsin",
+      "password": "1212",
+      "postId": "0101"
+    },
+    {
+      "id": "6da0",
+      "username": "Warsin",
+      "password": "1212",
+      "postId": "0101"
+    },
+    {
+      "username": "HIMM",
+      "password": "123098",
+      "postId": "123321",
+      "gpa": "2.34",
+      "id": "f1c9"
+    }
+  ]
+}
